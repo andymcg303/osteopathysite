@@ -21,6 +21,10 @@ body {
   max-height: 200px;
 }
 
+.profile-photo {
+  max-height: 300px;  
+}
+
 .business-header {
   height: 50vh;
   min-height: 200px;
