@@ -6,6 +6,9 @@
 
 body {
   padding-top: 54px;
+  background-color: #4f4f4f;
+  color: #ffffff;
+  font-family: "Trebuchet MS";
 }
 
 @media (min-width: 992px) {
@@ -14,10 +17,15 @@ body {
   }
 }
 
+.responsive-logo {
+  max-height: 200px;
+}
+
 .business-header {
   height: 50vh;
-  min-height: 300px;
-  background: url('http://placehold.it/1920x400') center center no-repeat scroll;
+  min-height: 200px;
+  max-height: 300px;
+  background: url('../images/exotic-beach.jpeg') center center no-repeat scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
