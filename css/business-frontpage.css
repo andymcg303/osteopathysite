@@ -39,3 +39,16 @@ body {
 .card {
   height: 100%;
 }
+
+iframe {
+  min-width: 300px;
+}
+
+.btn{
+  background-color: #fc8e0b;
+}
+
+.octi-icon{
+  width: 2em;
+  height:2em;
+}
