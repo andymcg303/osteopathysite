@@ -18,8 +18,8 @@ body {
   }
 }
 
-.responsive-logo {
-  max-height: 200px;
+.logo-in-navbar {
+  max-width: 250px;
 }
 
 .responsive-header{
