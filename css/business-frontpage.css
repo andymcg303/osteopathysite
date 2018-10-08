@@ -71,10 +71,14 @@ iframe {
   color: #49eaa9;
 }
 
+/*standardise height of navbar*/
+.navbar {
+  min-height: 134px;
+}
+
 /*stop toggler button dropping to next line*/
 .navbar-toggler {
   position: absolute;
-  top: 50%;
-  margin-top: -20px; 
+  top: 45px;
   right: 20px;
 }
