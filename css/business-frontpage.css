@@ -20,6 +20,7 @@ body {
 
 .logo-in-navbar {
   max-height: 100px;
+  padding-right: 75px;
 }
 
 .responsive-header{
@@ -73,6 +74,6 @@ iframe {
 /*stop toggler button dropping to next line*/
 .navbar-toggler {
   position: absolute;
-  top: 45px;
+  top: 33%;
   right: 20px;
 }
