@@ -19,7 +19,7 @@ body {
 }
 
 .logo-in-navbar {
-  max-width: 220px;
+  max-height: 100px;
 }
 
 .responsive-header{
@@ -68,4 +68,11 @@ iframe {
 
 .subheader-blue{
   color: #49eaa9;
+}
+
+/*stop toggler button dropping to next line*/
+.navbar-toggler {
+  position: absolute;
+  top: 45px;
+  right: 20px;
 }
