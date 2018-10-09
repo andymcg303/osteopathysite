@@ -82,3 +82,6 @@ iframe {
   right: 20px;
 }
 
+.navbar-toggler[aria-expanded="true"] {
+  visibility: hidden;
+}
