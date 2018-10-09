@@ -5,7 +5,7 @@
  */
 
 body {
-  padding-top: 134px;
+  padding-top: 120px;
   background-color: #4f4f4f;
   color: #ffffff;
   font-family: "Didact Gothic", sans-serif;
@@ -14,7 +14,7 @@ body {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 134px;
+    padding-top: 120px;
   }
 }
 
@@ -73,12 +73,12 @@ iframe {
 
 /*standardise height of navbar*/
 .navbar {
-  min-height: 134px;
+  height: 120px;
 }
 
 /*stop toggler button dropping to next line*/
 .navbar-toggler {
   position: absolute;
-  top: 45px;
+  top: 40px;
   right: 20px;
 }
