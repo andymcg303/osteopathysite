@@ -5,7 +5,7 @@
  */
 
 body {
-  padding-top: 105px;
+  padding-top: 134px;
   background-color: #4f4f4f;
   color: #ffffff;
   font-family: "Didact Gothic", sans-serif;
@@ -14,7 +14,7 @@ body {
 
 @media (min-width: 992px) {
   body {
-    padding-top: 105px;
+    padding-top: 134px;
   }
 }
 
@@ -73,15 +73,13 @@ iframe {
 
 /*standardise height of navbar*/
 .navbar {
-  min-height: 105px;
+  min-height: 134px;
 }
 
 /*stop toggler button dropping to next line*/
 .navbar-toggler {
   position: absolute;
+  top: 47px;
   right: 20px;
 }
 
-.navbar-toggler[aria-expanded="true"] {
-  visibility: hidden;
-}
