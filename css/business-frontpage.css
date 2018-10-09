@@ -73,7 +73,7 @@ iframe {
 
 /*standardise height of navbar*/
 .navbar {
-  height: 120px;
+  min-height: 120px;
 }
 
 /*stop toggler button dropping to next line*/
