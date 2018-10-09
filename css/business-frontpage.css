@@ -79,6 +79,6 @@ iframe {
 /*stop toggler button dropping to next line*/
 .navbar-toggler {
   position: absolute;
-  top: 45px;
+  margin: auto;
   right: 20px;
 }
