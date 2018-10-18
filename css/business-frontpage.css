@@ -32,6 +32,10 @@ body {
   width: 20vw;  
 }
 
+.treatment-photo {
+  width: 20wv;
+}
+
 .business-header {
   height: 40vh;
   /*min-height: 300px;*/
@@ -45,6 +49,7 @@ body {
 .card {
   height: 100%;
   background-color: #4f4f4f;
+  border-width: 3px;
 }
 
 iframe {
