@@ -29,11 +29,12 @@ body {
 }
 
 .profile-photo {
-  width: 20vw;  
+  width: 20vw;
+  min-width: 150px;  
 }
 
 .treatment-photo {
-  width: 20wv;
+  width: 40vw;
 }
 
 .business-header {
