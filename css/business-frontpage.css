@@ -36,16 +36,6 @@ body {
   width: 40vw;
 }
 
-.business-header {
-  height: 40vh;
-  /*min-height: 300px;*/
-  background: url('../images/exotic-beach.jpeg') center center no-repeat scroll;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  background-size: cover;
-  -o-background-size: cover;
-}
-
 .card {
   height: 100%;
   background-color: #4f4f4f;
