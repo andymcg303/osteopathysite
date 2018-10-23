@@ -32,8 +32,14 @@ body {
   min-width: 150px;  
 }
 
-.treatment-photo {
-  width: 40vw;
+/* .treatment-photo {
+  width: 35vw;
+  min-width: 300px;
+} */
+
+.registration-mark{
+  width: 20vw;
+  min-width: 150px;
 }
 
 .card {
