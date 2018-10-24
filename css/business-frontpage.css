@@ -32,10 +32,11 @@ body {
   min-width: 150px;  
 }
 
-/* .treatment-photo {
-  width: 35vw;
-  min-width: 300px;
-} */
+.page-graphic{
+  width: 25vw;
+  min-width: 150px;
+  max-width: 300px;
+}
 
 .registration-mark{
   width: 20vw;
