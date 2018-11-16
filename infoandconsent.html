@@ -138,7 +138,7 @@
 
     <div class="container">
         
-        <form name="consentForm" id="consentForm" action="https://formspree.io/info@onthemoveosteo.co.uk" method="POST">
+        <form name="consentForm" id="consentForm" class="mb-4" action="https://formspree.io/info@onthemoveosteo.co.uk" method="POST">
             <div class="row">
                 <div class="col-md-6">
                     <div class="control-group form-group">
@@ -177,7 +177,7 @@
                             <input type="email" required class="form-control" id="email" name="email">
                         </div>
                     </div>           
-                </div> <!--col-lg-6-->
+                </div> <!--col-md-6-->
                 
                 <!-- GP Contact consent -->
                 <div class="col-md-6">
@@ -219,24 +219,28 @@
                         </div>
                     </div>
 
+                    <div class="control-group form-group">
+                        <div class="controls">
+                            <label>Date of Consent:</label>
+                            <input type="date" required class="form-control" id="dateOfConsent" name="dateOfConsent">
+                        </div>
+                    </div>
+
                     <!-- Check Consent -->
                     <div class="control-group form-group">
-                            <div class="controls">
-                                <div class="form-check-inline">
-                                    <label class="form-check-label">
-                                        <input type="checkbox" required class="form-check-input" name="formConfirmed" value="yes">I confirm that I have read the above information and consent to being treated in the manner above, and that I am responsible for payment of fees.
-                                    </label>
-                                </div>
+                        <div class="controls">
+                            <div class="form-check-inline">
+                                <label class="form-check-label">
+                                    <input type="checkbox" required class="form-check-input" name="formConfirmed" value="yes">I confirm that I have read the above information and consent to being treated in the manner above, and that I am responsible for payment of fees.
+                                </label>
                             </div>
                         </div>
                     </div>    
-                </div> <!--col-lg-6 -->        
+                    <button type="submit" class="btn btn-primary" id="submitFormButton" value="Submit">SUBMIT</button>                
+
+                </div> <!--col-md-6 -->
 
             </div> <!--row-->
-
-            <div class="container mb-4"> 
-                <button type="submit" class="btn btn-primary" id="submitFormButton" value="Submit">SUBMIT</button>                
-            </div>        
 
         </form>
 
