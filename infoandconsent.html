@@ -137,9 +137,10 @@
     </div><!--  container    -->
 
     <div class="container">
+        
         <form name="consentForm" id="consentForm" action="https://formspree.io/info@onthemoveosteo.co.uk" method="POST">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-md-6">
                     <div class="control-group form-group">
                         <div class="controls">
                             <label>Name:</label>
@@ -177,22 +178,26 @@
                         </div>
                     </div>           
                 </div> <!--col-lg-6-->
-                <div class="col-lg-6">
+                
+                <!-- GP Contact consent -->
+                <div class="col-md-6">
                     <div class="control-group form-group">
                         <div class="controls">
                             <div class="mb-2">I am happy for my GP to be contacted:</div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="optGPconsent">Yes
+                                    <input type="radio" required class="form-check-input" name="GPconsent" value="yes">Yes
                                 </label>
                             </div>
                             <div class="form-check-inline">
                                 <label class="form-check-label">
-                                    <input type="radio" class="form-check-input" name="optGPconsent">No
+                                    <input type="radio" required class="form-check-input" name="GPconsent" value="no">No
                                 </label>
                             </div>
                         </div>
                     </div>
+
+                    <!-- Marketing Consent -->
                     <div class="control-group form-group">
                         <div class="controls">
                             <div class="mb-2">We would like to stay in touch with to provide healthcare advice, information and updates about the service and special offers. For providing promotional information which of the following methods may we use?:</div>
@@ -212,16 +217,29 @@
                                 </label>
                             </div>            
                         </div>
-                    </div>                           
-                </div> <!--col-lg-6-->
+                    </div>
+
+                    <!-- Check Consent -->
+                    <div class="control-group form-group">
+                            <div class="controls">
+                                <div class="form-check-inline">
+                                    <label class="form-check-label">
+                                        <input type="checkbox" required class="form-check-input" value="">I confirm that I have read the above information and consent to being treated in the manner above, and that I am responsible for payment of fees.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div> <!--col-lg-6 -->        
 
             </div> <!--row-->
-            <div class="row mb-4">
-                <div class="col">
-                    <button type="submit" class="btn btn-primary" id="submitFormButton" value="Submit">SUBMIT</button>                
-                </div>        
-            </div>    
-        </form> 
+
+            <div class="container mb-4"> 
+                <button type="submit" class="btn btn-primary" id="submitFormButton" value="Submit">SUBMIT</button>                
+            </div>        
+
+        </form>
+
     </div><!--container-->
 
     <!-- Footer -->
