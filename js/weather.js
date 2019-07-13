@@ -16,5 +16,5 @@ oReq.addEventListener("load", function(){
     }
 });
   
-oReq.open("GET", "http://api.openweathermap.org/data/2.5/weather?q=Enfield,uk&APPID=a2f590296ef709ae67a363c31331ea1f");
+oReq.open("GET", "https://api.openweathermap.org/data/2.5/weather?q=Enfield,uk&APPID=a2f590296ef709ae67a363c31331ea1f");
 oReq.send();
