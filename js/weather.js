@@ -7,7 +7,7 @@ oReq.addEventListener("load", function(){
 		var wDescription = (responseObject.weather[0].description);
         // console.log(responseObject.main.temp);
         var wTemp = parseInt(Number(responseObject.main.temp) - 273.15);
-        var wWindSpeed = (responseObject.wind.speed);
+        var wWindSpeed = parseInt(Number(responseObject.wind.speed) * 3.6);
         // console.log(responseObject.clouds.all);
         var wString = "The weather is forecast to be " + wDescription + ", the temperature is " + wTemp + " degrees celsius and the windspeed is " + wWindSpeed + "kph";
 
